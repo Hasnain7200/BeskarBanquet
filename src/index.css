@@ -7,6 +7,9 @@
 body{
   background-color: #fffcf2;
   overflow-x: hidden;
+  scroll-behavior: smooth;
+ transition-behavior: smooth;
+
 }
 
 #heading{
@@ -16,4 +19,12 @@ body{
   font-style: normal;
   
 
+}
+
+#text-heading{
+
+  @media only screen and(max-width:600px) {
+    display:flex;
+    flex-direction: column;
+  }
 }

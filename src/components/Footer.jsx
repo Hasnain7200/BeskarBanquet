@@ -2,22 +2,32 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='h-[80px] w-full border-t border-neutral-200  flex items-center justify-evenly gap-5'>
-      <div className="flex items-center justify-between max-w-[500px] flex-row">
+    <div className='h-[200px]  border border-neutral-200   md:flex  items-center justify-evenly gap-5 bg-[#d4a373]'>
+    
+      <div className="md:flex items-center justify-between  flex-row mt-5">
         {/* <img src={} alt='Logo' className='w-[100px] h-[100px]'></img> */}
         <h1
-          className="w-full  text-3xl font-bold  items-center"
+          className="  text-3xl font-bold  items-center"
           id="heading"
         >
-          <span className="text-[#d4a373] " id="Beskar">
+          <span className="text-[#ffff] " id="Beskar">
             Beskar
           </span>
           <span className="text-black">Banquet</span>
         </h1>
       </div>
-      <p>Contact</p>
-      <p>Email</p>
-      <p>Address</p>
+    <div>
+   
+   <p className='mt-5' id='heading'>Contact: </p>
+   <p>Ismail Beskar-8805592198</p>
+   
+   
+      <p className='mt-3' id='heading'>Email:</p>
+      <p>ismailbeskar1386@gmail.com</p>
+
+      <p className='mt-3' id='heading'>Address:</p>
+      <p>Front of Police Headquaters,Solapur</p>
+    </div>
     </div>
   )
 }

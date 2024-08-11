@@ -4,47 +4,52 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div className="flex flex-col  ml-16 mt-28 gap-5 md:flex-row" id="about">
+    <div
+      className="md:flex flex-col items-center justify-center  mt-80 gap-5 md:flex-row md:items-center md:justify-center"
+      id="about"
+    >
       {/* left part */}
       <motion.div
-       whileInView={{ opacity: 1, y:-100 }}
-          initial={{ opacity: 0, y: 100 }}
-          transition={{ duration: 1.5 }}
-       className="">
+        whileInView={{ opacity: 1, y: -100 }}
+        initial={{ opacity: 0, y: 100 }}
+        transition={{ duration: 1.5 }}
+        className="md:flex"
+      >
         <img
           src={wedding}
           alt=""
-          className="h-[400px] w-[400px] rounded-2xl"
+          className="h-[400px] w-[400px] rounded-2xl flex items-center justify-center"
         ></img>
       </motion.div>
 
       {/* right part */}
-      <motion.div 
-        whileInView={{ opacity: 1, x:0,y:-50 }}
-          initial={{ opacity: 0, x: 100 }}
-          transition={{ duration: 1.5 }}
-      className="flex flex-col gap-8 w-[900px]">
-        <div className="hidden md:flex h-[45px] w-[100px] text-black border border-[#d4a373]   items-center justify-center rounded-full ">
+      <motion.div
+        whileInView={{ opacity: 1, x: 0, y: -50 }}
+        initial={{ opacity: 0, x: 100 }}
+        transition={{ duration: 1.5 }}
+        className="md:flex flex-col gap-8 mb-20 md:w-[600px] "
+      >
+        <div className=" md:flex h-[45px] w-[100px] text-black border border-[#d4a373] flex items-center justify-center rounded-full ">
           About us
         </div>
 
-        <span id="heading" className="text-3xl">
-          Trusted By 200 + satisfied clients
+        <span id="heading" className="text-3xl object-contain">
+          Visit our Site
         </span>
-        <div className=" object-contain font-serif text-neutral-500">
-          Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-          labore eit esdioilore magna aliqua. Ut enim ad minim veniam, quis
-          nostrud exercitation ullaemco laboeeiris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor iesdein reprehendeerit in voluptate
-          velit esse cillum dolore
-        </div>
+        <span className=" font-serif text-neutral-500">
+          With state of the art technologies and first class service, BeskarBanquet was
+          designed from the ground up to make your event the most memorable. We
+          have spent countless hours thinking about all the details and
+          enhancing this beautiful venue with features so you can concentrate on
+          what is more important: having an amazing time with your guests.
+        </span>
 
         <a
-            href="#book"
-            className="hidden font-serif md:flex h-[45px] w-[300px] text-black bg-[#d4a373]   items-center justify-center rounded-full  hover:bg-black  hover:text-[#d4a373] hover:transition-[2s] "
-          >
-            Book your Event
-          </a>
+          href="#book"
+          className="hidden font-serif md:flex h-[45px] w-[300px] text-black bg-[#d4a373]   items-center justify-center rounded-full  hover:bg-black  hover:text-[#d4a373] hover:transition-[2s] "
+        >
+          Book your Event
+        </a>
       </motion.div>
     </div>
   );
