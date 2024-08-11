@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/BeskarBanquet/static/css/main.973b7fd6.css",
+    "main.js": "/BeskarBanquet/static/js/main.deeff51f.js",
+    "static/media/video.mp4": "/BeskarBanquet/static/media/video.2ae3d978dfc1751b76a8.mp4",
+    "static/media/finial.png": "/BeskarBanquet/static/media/finial.2611534f539b66779304.png",
+    "static/media/weddingimg.jpeg": "/BeskarBanquet/static/media/weddingimg.d9f7a59080f995bcf5c7.jpeg",
+    "static/media/wedding.jpeg": "/BeskarBanquet/static/media/wedding.b367ddac2a797c322f23.jpeg",
+    "static/media/reception.jpeg": "/BeskarBanquet/static/media/reception.0debfff2905783446fe4.jpeg",
+    "static/media/birthday.avif": "/BeskarBanquet/static/media/birthday.66817ac1bcac46245e4a.avif",
+    "index.html": "/BeskarBanquet/index.html",
+    "main.973b7fd6.css.map": "/BeskarBanquet/static/css/main.973b7fd6.css.map",
+    "main.deeff51f.js.map": "/BeskarBanquet/static/js/main.deeff51f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.973b7fd6.css",
+    "static/js/main.deeff51f.js"
+  ]
+}
